@@ -79,7 +79,7 @@ export async function createServerMeta(mongoconnection, serverId, sessionid, res
 		else {
 			metaTags += `
 				<meta property="og:url" content="https://chat.itamarorenn.com/server/${serverId}" />
-				<meta name="description" content="click to view the \"${sdoc.configs.name}\" chat server!">
+				<meta name="description" content="click to view the \"${sdoc?.configs?.name}\" chat server!">
 			`;
 		}
 

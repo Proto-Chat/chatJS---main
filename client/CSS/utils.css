@@ -34,3 +34,30 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+#small-screen-warning {
+    display: none; /* Hidden by default */
+    background-color: #333; /* Dark grey background */
+    color: #ccc; /* Light grey text */
+    padding: 20px; /* Padding for some space inside the div */
+    text-align: center; /* Center the text */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #555; /* Slightly lighter grey border */
+    margin: 20px; /* Margin around the div */
+    font-family: Arial, sans-serif; /* Optional: sets the font */
+}
+
+a {
+    color: #4a90e2; /* Light blue link for a pleasant contrast */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for better usability */
+}
+
+@media (max-width: 500px) {
+    #small-screen-warning {
+        display: block; /* Show only on small screens */
+    }
+}

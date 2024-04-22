@@ -268,7 +268,7 @@ export async function addToServer(mongoconnection, uid, serverId) {
 		
 		// check if the user is already in the server
 		const users = await dbo.findOne({ _id: 'classifications', users: [uid] });
-		if (users) return {code: 200};		
+		if (users) return {code: 200};
 
 		if (!uConfStripped) return { type: 1, code: 404, msg: "user not found" };
 
