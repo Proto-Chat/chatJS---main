@@ -4,7 +4,7 @@ ${\color{red}My}\hspace{0.2cm}{\color{orange}terrible}\hspace{0.2cm}{\color{yell
 <br><br>
 
 ## Where can I find it?
-https://ionchat.herokuapp.com
+https://chat.ion606.com
 <br><br>
 
 ## License
